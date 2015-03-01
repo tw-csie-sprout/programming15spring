@@ -33,11 +33,11 @@
 
 ## 課程投影片
 
-[](include:slide.md)
+[include](slide.md)
 
 ## 勾選作業
 
-[](include:homework.md)
+[include](homework.md)
 
 ## 點陣圖
 
