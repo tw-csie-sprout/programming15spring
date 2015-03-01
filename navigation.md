@@ -3,8 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
-
+# 資訊之芽語法班
 
 <!--
   -- Default theme
@@ -19,8 +18,8 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[About](pages/about.md)
-[Download](pages/download.md)
+<!-- [About](pages/about.md)
+[Download](pages/download.md) -->
 
 <!-- A more complex navigation example: ----------------------------------------
 
@@ -44,7 +43,7 @@
 
 <!--
   -- Change the Language
-  -- Could be useful when there's more than one language wiki.
+  -- Could be useful when theres more than one language wiki.
   -->
 
 <!--
