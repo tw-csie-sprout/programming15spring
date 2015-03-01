@@ -21,6 +21,10 @@
 <!-- [About](pages/about.md)
 [Download](pages/download.md) -->
 
+[課程投影片](slide.md)
+[課程作業](homework.md)
+[其他資源](resource.md)
+
 <!-- A more complex navigation example: ----------------------------------------
 
 [Menu Item 1]()
