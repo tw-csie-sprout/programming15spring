@@ -1,6 +1,6 @@
 # 課程作業
 
-- 線上繳交測試系統 [](http://2015.sprout.csie.org/oj/proset/?class=1)
+- 線上繳交測試系統 <http://2015.sprout.csie.org/oj/proset/?class=1>
 
 ## 每週勾選作業
 
@@ -10,6 +10,6 @@
 
 ## 小遊戲
 
-- 函式庫 [](http://w.csie.org/~b02902029/smallgame/)
+- 函式庫 <http://w.csie.org/~b02902029/smallgame/>
 
 ## 解釋器
