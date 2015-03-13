@@ -15,3 +15,4 @@
 | if 陳述式 | |
 | for 陳述式 | |
 | 一維陣列 | [02-array.pdf](./pages/uploads/presentations/week02/02-array.pdf) |
+| 整合範例與作業 | [02-integrated-examples.pdf](./pages/uploads/presentations/week02/02-integrated-examples.pdf) |
