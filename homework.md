@@ -11,6 +11,18 @@
 
 ## 點陣圖
 
+- 第一階段點陣圖作業
+
+    * [[作業投影片 `03-bmp-00.pdf`]](./pages/uploads/presentations/week03/03-bmp-00.pdf)
+
+    * [[函式庫 `bmp_hdlr.h`]](./pages/uploads/documents/homework-bmp/bmp_hdlr.h) [[測試圖片]](./pages/uploads/images/homework-bmp/sprout03_in.bmp)
+
+        + 圖片來源: Les Haines, 於 <https://www.flickr.com/photos/leshaines123/9817029973/>
+
+        Creative Commons 2.0 授權
+
+    * 範例: [[黑白]](./pages/uploads/documents/homework-bmp/bmp_monochrome.cpp) [[泡泡]](./pages/uploads/documents/homework-bmp/bmp_bubble.cpp) [[失焦]](./pages/uploads/documents/homework-bmp/bmp_defocus.cpp)
+
 ## 小遊戲
 
 - 函式庫 <http://w.csie.org/~b02902029/smallgame/>
