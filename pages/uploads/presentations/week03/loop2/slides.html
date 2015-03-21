@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Mudream" />
+  <meta name="dcterms.date" content="2015-03-15" />
+  <title>迴圈(II)</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="../reveal.js/css/theme/default1.css" id="theme">
+
+
+    <!-- For syntax highlighting using highlight.js-->
+    <link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+
+  <link rel="stylesheet" media="print" href="../reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="../reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">迴圈(II)</h1>
+    <h2 class="author">Mudream</h2>
+    <h3 class="date">March 15, 2015</h3>
+</section>
+
+<section id="section" class="slide level1">
+<h1></h1>
+<ul>
+<li><code>break</code></li>
+<li><code>continue</code></li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<h2 id="回憶">回憶</h2>
+<figure>
+<img src="loop-normal.png" />
+</figure>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<h2 id="質數檢驗">質數檢驗</h2>
+<p>要如何檢驗質數？</p>
+<ul>
+<li><p>回歸定義：</p>
+<p>質數定義：除了1，不被小於自己的數整除</p></li>
+<li><p>虛擬碼：</p>
+<pre><code>// input n
+isprime = true
+for i = 2 ~ n-1
+    if n%i == 0
+        isprime = false</code></pre></li>
+</ul>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<h2 id="質數檢驗-1">質數檢驗</h2>
+<pre class="cpp"><code>bool isprime = true;
+for(int i = 2; i &lt; n; i++)
+    if(n%i == 0)
+        isprime = false;</code></pre>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<h2 id="質數檢驗-2">質數檢驗</h2>
+<ul>
+<li><p>假如可以在找到因數時就離開回圈？</p></li>
+<li><p>可以注意到<code>for</code>的條件部分</p>
+<ul>
+<li>假如發現他不是prime，迴圈不需要繼續跑下去</li>
+<li>增加一個條件<code>isprime</code></li>
+<li><code>i &lt; n and isprime</code></li>
+</ul>
+<pre class="cpp"><code>bool isprime = true;
+for(int i = 2; i &lt; n and isprime; i++)
+    if(n%i == 0)
+        isprime = false;</code></pre></li>
+</ul>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<h2 id="一個直接把迴圈斷掉的指令">一個直接把迴圈斷掉的指令</h2>
+<figure>
+<img src="loop-break.png" />
+</figure>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<h2 id="break指令"><code>break</code>指令</h2>
+<pre class="cpp"><code>bool isprime = true;
+for(int i = 2;i &lt; n; i++){
+    if(n%i == 0){
+        isprime = false;
+        break;
+    }
+}</code></pre>
+</section>
+<section id="section-7" class="slide level1">
+<h1></h1>
+<h2 id="使用方式">使用方式</h2>
+<ul>
+<li>語法：<code>break;</code></li>
+<li>意思：
+<ul>
+<li>中斷迴圈</li>
+<li>假如是巢狀迴圈，是第一個把該指令包覆的迴圈會被中斷</li>
+</ul>
+<pre class="cpp"><code>for(int i = 1;i &lt;= 3;i++){
+    for(int j = 1;j &lt;= 3;j++){
+        if(j &gt; i){
+            break;
+        }
+        std::cout &lt;&lt; &quot;*&quot;;
+    }
+    std::cout &lt;&lt; &quot;\n&quot;;
+}</code></pre>
+<p>會印出</p>
+<pre><code>*
+**
+***</code></pre></li>
+</ul>
+</section>
+<section id="section-8" class="slide level1">
+<h1></h1>
+<h2 id="跳過當前回合">跳過當前回合？</h2>
+<figure>
+<img src="loop-continue.png" />
+</figure>
+</section>
+<section id="section-9" class="slide level1">
+<h1></h1>
+<h2 id="continue指令"><code>continue</code>指令</h2>
+<p>一個把陣列裡的正整數加起來的code</p>
+<pre class="cpp"><code>int arr[100], sum = 0;
+// Input of arr
+for(int i = 0; i &lt; 100;i++){
+    if(arr[i] &lt; 0) continue;
+    sum += arr[i];
+}</code></pre>
+</section>
+<section id="section-10" class="slide level1">
+<h1></h1>
+<h2 id="使用方法">使用方法</h2>
+<ul>
+<li>語法：<code>continue;</code></li>
+<li>意思：
+<ul>
+<li>終止當前迴圈，跳到下次迭代</li>
+<li>假如是巢狀迴圈，是第一個把該指令包覆的迴圈會被影響</li>
+</ul></li>
+</ul>
+</section>
+<section id="review" class="slide level1">
+<h1>Review</h1>
+<ul>
+<li>指令：<code>break</code> <code>continue</code></li>
+<li>有時可以讓某些code更乾淨</li>
+<li>想一想：
+<ul>
+<li>有沒有辦法乾淨的方法中斷多層迴圈</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-11" class="slide level1">
+<h1></h1>
+<h2 id="練習時間">練習時間！</h2>
+<p>給一個矩陣，找出第一個全是零的行的編號</p>
+</section>
+    </div>
+  </div>
+
+  <script src="../reveal.js/lib/js/head.min.js"></script>
+  <script src="../reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: false,
+        progress: true,
+        history: true,
+        center: true,
+        theme: "default1", 
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '../reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>
+
