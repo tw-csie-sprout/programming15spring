@@ -13,23 +13,23 @@
 ## 點陣圖 (第一階段)
 ### 作業內容
 
-    * 繳交期限: 2015/04/11 (六) 08:00am (3 weeks); 方法待公佈
+* 繳交期限: 2015/04/11 (六) 08:00am (3 weeks); 方法待公佈
 
-    * 內容: Sobel filter (Announced on 2015/03/21)
+* 內容: Sobel filter (2015/03/21)
 
-    * 請繳交程式以及一份文件, 描述你做了什麼, 是否遇到什麼議題等
+* 請繳交程式以及一份文件, 描述你做了什麼, 是否遇到什麼議題等
 
 ### 相關檔案
 
-    * [[作業投影片 `03-bmp-00.pdf`]](./pages/uploads/presentations/week03/03-bmp-00.pdf)
+* [[作業投影片 `03-bmp-00.pdf`]](./pages/uploads/presentations/week03/03-bmp-00.pdf)
 
-    * [[函式庫 `bmp_hdlr.h`]](./pages/uploads/documents/homework-bmp/bmp_hdlr.h) [[測試圖片]](./pages/uploads/images/homework-bmp/sprout03_in.bmp)
+* [[函式庫 `bmp_hdlr.h`]](./pages/uploads/documents/homework-bmp/bmp_hdlr.h) [[測試圖片]](./pages/uploads/images/homework-bmp/sprout03_in.bmp)
 
-        + 圖片來源: Les Haines, 於 <https://www.flickr.com/photos/leshaines123/9817029973/>
+    + 圖片來源: Les Haines, 於 <https://www.flickr.com/photos/leshaines123/9817029973/>
 
-        Creative Commons 2.0 授權
+    Creative Commons 2.0 授權
 
-    * 範例: [[黑白]](./pages/uploads/documents/homework-bmp/bmp_monochrome.cpp) [[泡泡]](./pages/uploads/documents/homework-bmp/bmp_bubble.cpp) [[失焦]](./pages/uploads/documents/homework-bmp/bmp_out_of_focus_blur.cpp)
+* 範例: [[黑白]](./pages/uploads/documents/homework-bmp/bmp_monochrome.cpp) [[泡泡]](./pages/uploads/documents/homework-bmp/bmp_bubble.cpp) [[失焦]](./pages/uploads/documents/homework-bmp/bmp_out_of_focus_blur.cpp)
 
 ## 小遊戲
 
