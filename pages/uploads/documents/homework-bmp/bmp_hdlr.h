@@ -37,13 +37,8 @@ class Bitmap {
     uint32_t image_size;        // the size of the raw bitmap data
     uint32_t zeroes[4];         // 4 uninteresting field, set to 0
   };
-  std::fstream fout;
 public:
-  Bitmap() : fout(bmp_out, std::ios::out|std::ios::binary) {
-    if (!fout.good()) {
-      std::cerr << "Open output file '" << bmp_out << "' failed.\n";
-      return;
-    }
+  Bitmap() {
     std::fstream fin(bmp_in, std::ios::in|std::ios::binary);
     if (!fin.good()) {
       std::cerr << "Open input file '" << bmp_in << "' failed.\n";
@@ -81,8 +76,11 @@ public:
     }
   }
   ~Bitmap() {
-    if (!fout.good())
+    std::fstream fout(bmp_out, std::ios::out|std::ios::binary);
+    if (!fout.good()) {
+      std::cerr << "Open output file '" << bmp_out << "' failed.\n";
       return;
+    }
     const int padded_width = padding4(width*3);
     std::vector<unsigned char> buf(padded_width*height);
     for (int i = 0; i != height; ++i) {
