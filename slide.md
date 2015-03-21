@@ -30,4 +30,5 @@
 |:-------------:|:-------------:|:------:|
 | 多維陣列|[03-multarr](./pages/uploads/presentations/week03/multarr/slides.html) | |
 | 迴圈 | [03-loop2](./pages/uploads/presentations/week03/loop2/slides.html) | |
+| 字串(I) | [03-cstring](./pages/uploads/presentations/week03/cstring/slides.html) | |
 | 點陣圖 | [03-bmp-00.pdf](./pages/uploads/presentations/week03/03-bmp-00.pdf) |  |

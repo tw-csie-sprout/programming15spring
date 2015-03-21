@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="c2251393" />
+  <title>字串</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+
+
+    <!-- For syntax highlighting using highlight.js-->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">字串</h1>
+    <h2 class="author">c2251393</h2>
+    <h3 class="date">資訊之芽語法班 2015</h3>
+</section>
+
+<section><section id="字串是啥" class="titleslide slide level1"><h1>字串是啥</h1></section><section id="情感上" class="slide level2">
+<h1>情感上</h1>
+<p>一堆字母接起來的字詞或句子</p>
+<p>這些是字串 :</p>
+<ul>
+<li><p>&quot;aaaa&quot;</p></li>
+<li><p>&quot;sprout&quot;</p></li>
+<li><p>&quot;sprout hwo bang bang&quot;</p></li>
+<li><p>&quot;suhorng how way&quot;</p></li>
+</ul>
+</section><section id="c裡" class="slide level2">
+<h1>C++裡</h1>
+<p>字串 <span class="math">\(\equiv\)</span> <span class="math">\(char\)</span> 這個型別的陣列</p>
+<p>ex :</p>
+<pre class="cpp"><code>char a[11]; // a string
+int b[125]; // not a string
+char c; // not a string
+bool d; // not a string </code></pre>
+</section></section>
+<section><section id="字串宣告" class="titleslide slide level1"><h1>字串宣告</h1></section><section id="像陣列一樣宣告" class="slide level2">
+<h1>像陣列一樣宣告</h1>
+<pre class="cpp"><code>char str[11];</code></pre>
+</section><section id="原始人初始化" class="slide level2">
+<h1>原始人初始化</h1>
+<pre class="cpp"><code>char str[11];
+str[0] = &#39;m&#39;;
+str[1] = &#39;u&#39;;
+str[2] = &#39;d&#39;;
+str[3] = &#39;r&#39;;
+str[4] = &#39;e&#39;;
+str[5] = &#39;a&#39;;
+str[6] = &#39;m&#39;;
+str[7] = &#39;\0&#39;; // 宇宙戰艦級重要!!!!!!代表字串的結尾</code></pre>
+</section><section id="還記得陣列嗎" class="slide level2">
+<h1>還記得陣列嗎</h1>
+<pre class="cpp"><code>char str[11] = {&#39;m&#39;, &#39;u&#39;, &#39;d&#39;, &#39;r&#39;, &#39;e&#39;, &#39;a&#39;, &#39;m&#39;, &#39;\0&#39;};
+// 別忘記 &#39;\0&#39;</code></pre>
+<p>or</p>
+<pre class="cpp"><code>char str[] = {&#39;m&#39;, &#39;u&#39;, &#39;d&#39;, &#39;r&#39;, &#39;e&#39;, &#39;a&#39;, &#39;m&#39;, &#39;\0&#39;};
+// str 會是有8個格子的char陣列
+// 別忘記 &#39;\0&#39;</code></pre>
+</section><section id="別忘了這是字串" class="slide level2">
+<h1>別忘了這是字串</h1>
+<pre class="cpp"><code>char str[11] = &quot;mudream&quot;;</code></pre>
+<p>or</p>
+<pre class="cpp"><code>char str[] = &quot;mudream&quot;;
+// str 有幾個元素呢？</code></pre>
+</section></section>
+<section><section id="字串io" class="titleslide slide level1"><h1>字串IO</h1></section><section id="輸出" class="slide level2">
+<h1>輸出</h1>
+<pre class="cpp"><code>char str[] = &quot;suhorng how bang bang&quot;;
+std::cout &lt;&lt; str &lt;&lt; std::endl; // 輸出:suhorng how bang bang
+char str2[] = &quot;mud\0dream&quot;;
+std::cout &lt;&lt; str2 &lt;&lt; std::endl; // 輸出:mud</code></pre>
+</section><section id="輸出cont." class="slide level2">
+<h1>輸出(cont.)</h1>
+<pre class="cpp"><code>char str[] = &quot;akaiN\0eko&quot;;
+std::cout &lt;&lt; str &lt;&lt; std::endl; // 與下列三行等價
+for(int i = 0; str[i] != &#39;\0&#39;; i++)
+  std::cout &lt;&lt; str[i];
+std::cout &lt;&lt; std::endl;</code></pre>
+</section><section id="輸入" class="slide level2">
+<h1>輸入</h1>
+<pre class="cpp"><code>char str[11];
+std::cin &gt;&gt; str;// 輸入:abc bba sadad
+std::cout &lt;&lt; str &lt;&lt; std::endl;// 輸出:abc
+// str === {&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;\0&#39;}</code></pre>
+</section></section>
+<section><section id="exercise" class="titleslide slide level1"><h1>Exercise</h1></section><section id="prob." class="slide level2">
+<h1>Prob.</h1>
+<p>輸入一行字串，計算她的長度並輸出他。</p>
+<p>輸入的字串由小寫英文字母組成，長度最多<span class="math">\(1000\)</span>。</p>
+</section><section id="sol." class="slide level2">
+<h1>Sol.</h1>
+<pre class="cpp"><code>int ans = 0;
+for(int i = 0; str[i] != &#39;\0&#39;; i++) ans++;</code></pre>
+</section><section id="sol.-2" class="slide level2">
+<h1>Sol. 2</h1>
+<p>請先 <code>#include &lt;cstring&gt;</code></p>
+<pre class="cpp"><code>int ans = strlen(str);</code></pre>
+</section></section>
+<section><section id="一堆字串怎麼辦" class="titleslide slide level1"><h1>一堆字串怎麼辦</h1></section><section id="char的多維陣列" class="slide level2">
+<h1><span class="math">\(char\)</span>的多維陣列</h1>
+<p>輸入<span class="math">\(n\)</span>代表有<span class="math">\(n\)</span>行字串要輸入。</p>
+<pre class="cpp"><code>int n;
+char str[111][111];
+std::cin &gt;&gt; n;
+for(int i = 0; i &lt; n; i++)
+  std::cin &gt;&gt; str[i];
+for(int i = 0; i &lt; n; i++)
+  std::cout &lt;&lt; str[i] &lt;&lt; std::endl;</code></pre>
+</section></section>
+<section><section id="ascii" class="titleslide slide level1"><h1>ASCII</h1></section><section id="字元都是整數" class="slide level2">
+<h1>字元都是整數</h1>
+<p>因為現代電腦儲存資料都是二進位，就連字元也是。</p>
+<p>所以需要一個把字元對應到整數的方法。</p>
+</section><section id="examples" class="slide level2">
+<h1>examples</h1>
+<p><code>'A' == 65, 'B' == 66,,,, 'Z' == 90</code></p>
+<p><code>'a' == 97, 'b' == 98,,,, 'z' == 122</code></p>
+<p><code>'0' == 48,,,, '9' == 57</code></p>
+<p><code>'\0' == 0</code></p>
+<p>注意到某種神祕的連續關係</p>
+</section><section id="判斷英文字母" class="slide level2">
+<h1>判斷英文字母</h1>
+<pre class="cpp"><code>if(&#39;a&#39; &lt;= str[i] &amp;&amp; str[i] &lt;= &#39;z&#39;)
+  blahblahblah;</code></pre>
+<pre class="cpp"><code>if(&#39;A&#39; &lt;= str[i] &amp;&amp; str[i] &lt;= &#39;Z&#39;)
+  blahblahblah;</code></pre>
+</section><section id="判斷數字" class="slide level2">
+<h1>判斷數字</h1>
+<pre class="cpp"><code>if(&#39;0&#39; &lt;= str[i] &amp;&amp; str[i] &lt;= &#39;9&#39;)
+  blahblahblah;</code></pre>
+</section><section id="判斷字串結尾" class="slide level2">
+<h1>判斷字串結尾</h1>
+<pre class="cpp"><code>if(str[i] == 0)
+  blahblahblah;</code></pre>
+</section></section>
+<section><section id="對字串做事情" class="titleslide slide level1"><h1>對字串做事情</h1></section><section id="caesar-cipher" class="slide level2">
+<h1>Caesar Cipher</h1>
+<p>傳說是古老西方神祕半島的老大隱藏軍令的方法。</p>
+<p>把<code>a -&gt; d, b -&gt; e, c -&gt; f,,,, x -&gt; a, y -&gt; b, z -&gt; c</code></p>
+<p>輸入一個明文，請把他加密後輸出。</p>
+</section><section id="sol" class="slide level2">
+<h1>Sol</h1>
+<pre class="cpp"><code>for(int i = 0; str[i] != &#39;\0&#39;; i++) {
+  int nowCh = str[i]-&#39;a&#39;;
+  int newCh = (nowCh + 3) % 26;
+  str[i] = newCh + &#39;a&#39;;
+}</code></pre>
+</section></section>
+<section><section id="字串比較" class="titleslide slide level1"><h1>字串比較</h1></section><section id="strcmp" class="slide level2">
+<h1>strcmp</h1>
+<p>請先<code>#include &lt;cstring&gt;</code></p>
+<p>用法 :</p>
+<pre class="cpp"><code>char a[], b[];
+strcmp(a, b); // &gt; 0 如果a的字典序比b大
+              // == 0 如果兩個字串一樣
+              // &lt; 0 如果a的字典序比b小</code></pre>
+</section></section>
+<section><section id="總結" class="titleslide slide level1"><h1>總結</h1></section><section id="section" class="slide level2">
+<h1></h1>
+<ul>
+<li>字串是<span class="math">\(char\)</span>的陣列</li>
+<li>字串的後面要有結尾字元<code>'\0'</code></li>
+<li>ASCII碼有神祕的連續性質</li>
+<li><code>strcmp</code>回傳0代表兩個字串一樣</li>
+<li><code>#include&lt;cstring&gt;</code>有很多東東可以用</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: false,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'night', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>
+
