@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Mudream" />
+  <meta name="dcterms.date" content="2015-03-15" />
+  <title>陣列(II)</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="../reveal.js/css/theme/default1.css" id="theme">
+
+
+    <!-- For syntax highlighting using highlight.js-->
+    <link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+
+  <link rel="stylesheet" media="print" href="../reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="../reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">陣列(II)</h1>
+    <h2 class="author">Mudream</h2>
+    <h3 class="date">March 15, 2015</h3>
+</section>
+
+<section id="更多小技巧" class="slide level1">
+<h1>更多小技巧</h1>
+</section>
+<section id="初始化" class="slide level1">
+<h1>初始化</h1>
+<pre class="cpp"><code>int arr[5];
+arr[0] = 1, arr[1] = 2, arr[2] = 3, arr[3] = 5, arr[4] = 8;</code></pre>
+<p>可以寫成</p>
+<pre class="cpp"><code>int arr[5] = {1, 2, 3, 5, 8};</code></pre>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<h2 id="使用方法">使用方法</h2>
+<ul>
+<li><p>語法： <!-- .element: class=fragment --></p>
+<pre class="cpp"><code>型態 陣列名稱[大小] = {初始值, ...};</code></pre></li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<h2 id="自動填入個數">自動填入個數</h2>
+<pre class="cpp"><code>int arr[] = {1, 2, 2, 4, 5};</code></pre>
+<p>等同於</p>
+<pre class="cpp"><code>int arr[5] = {1, 2, 2, 4, 5};</code></pre>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<h2 id="自動補零">自動補零</h2>
+<pre class="cpp"><code>int arr[5] = {1, 2, 3};</code></pre>
+<p>等同於</p>
+<pre class="cpp"><code>int arr[5] = {1, 2, 3, 0, 0};</code></pre>
+</section>
+<section id="多維陣列" class="slide level1">
+<h1>多維陣列</h1>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<ul>
+<li><p>假如現在要存一個二維的地圖</p></li>
+<li><p>假如是踩地雷好了</p></li>
+<li><p>每個方格子需要用0或1來儲存代表有沒有地雷</p></li>
+<li><p>一維要如做出來？</p></li>
+</ul>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<h2 id="模擬二維">模擬二維</h2>
+<ul>
+<li><p>一個3x3的地圖</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">(0, 0)-&gt;0</td>
+<td style="text-align: left;">(1, 0)-&gt;1</td>
+<td style="text-align: left;">(2, 0)-&gt;2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">(0, 1)-&gt;3</td>
+<td style="text-align: left;">(1, 1)-&gt;4</td>
+<td style="text-align: left;">(2, 1)-&gt;5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">(0, 2)-&gt;6</td>
+<td style="text-align: left;">(1, 2)-&gt;7</td>
+<td style="text-align: left;">(2, 2)-&gt;8</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>對應到 <code>int arr[9];</code></p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">8</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>Code ?</p>
+<pre class="cpp"><code>int arr[9];
+// arr[y*3 + x] 是第 y row，
+//    第 x column 的元素。</code></pre></li>
+</ul>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<h2 id="模擬二維-1">模擬二維</h2>
+<ul>
+<li><p>或者Code像：</p>
+<pre class="cpp"><code>int arr0[3], arr1[3], arr2[3];</code></pre></li>
+<li><p>但是？</p>
+<p>當然不可以這樣存取XD</p>
+<pre><code>std::cout &lt;&lt; arri[j];
+// arri ???</code></pre></li>
+</ul>
+</section>
+<section id="二維陣列" class="slide level1">
+<h1>二維陣列</h1>
+<ul>
+<li><p>像這樣</p>
+<pre class="cpp"><code>int arr[3][3];</code></pre></li>
+<li><p>現在可以這樣存取</p>
+<pre class="cpp"><code>std::cout &lt;&lt; arr[i][j];</code></pre></li>
+</ul>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<h2 id="section-7"></h2>
+<ul>
+<li><p>arr[0]是這排</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">arr[0][0]</td>
+<td style="text-align: left;">arr[0][1]</td>
+<td style="text-align: left;">arr[0][2]</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>arr[1]是這排</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">arr[1][0]</td>
+<td style="text-align: left;">arr[1][1]</td>
+<td style="text-align: left;">arr[1][2]</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>arr[2]是這排</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">arr[2][0]</td>
+<td style="text-align: left;">arr[2][1]</td>
+<td style="text-align: left;">arr[2][2]</td>
+</tr>
+</tbody>
+</table></li>
+</ul>
+</section>
+<section id="section-8" class="slide level1">
+<h1></h1>
+<h2 id="讀入輸出一個陣列">讀入、輸出一個陣列</h2>
+<ul>
+<li><p>這並不會Work喔</p>
+<pre class="cpp"><code>std::cout &lt;&lt; arr;
+//這並不會輸出陣列。</code></pre></li>
+<li><p>必須一個一個讀入每個元素</p>
+<pre class="cpp"><code>for(int i = 0; i &lt; 3;i++)
+  for(int j = 0;j &lt; 3;j++)
+    std::cin &gt;&gt; arr[i][j];</code></pre></li>
+<li><p>輸出</p>
+<pre class="cpp"><code>for(int i = 0; i &lt; 3;i++)
+  for(int j = 0;j &lt; 3;j++)
+    std::cout &lt;&lt; arr[i][j];</code></pre></li>
+</ul>
+</section>
+<section id="section-9" class="slide level1">
+<h1></h1>
+<h2 id="二維初始化">二維初始化</h2>
+<ul>
+<li><p>回憶一下一維的初始方法</p>
+<pre class="cpp"><code>int arr[3][3] = {
+      //初始化 arr[0]
+    , //初始化 arr[1]
+    , //初始化 arr[2]
+};
+</code></pre></li>
+<li><p>arr[i]也都是陣列</p>
+<pre class="cpp"><code>int arr[3][3] = {
+      {0, 0, 1}
+    , {1, 0, 1}
+    , {0, 1, 1}
+};</code></pre></li>
+</ul>
+</section>
+<section id="section-10" class="slide level1">
+<h1></h1>
+<h2 id="更多維">更多維？</h2>
+<pre class="cpp"><code>int arr[2][3][3] = {
+    {
+        {0, 1, 1},
+        {1, 0, 1},
+        {1, 1, 0}
+    },{
+        {0, 0, 1},
+        {1, 0, 0},
+        {0, 1, 0}
+    }
+};</code></pre>
+<pre class="cpp"><code>for(int i = 0; i &lt; 2; i++)
+    for(int j = 0; j &lt; 3; j++)
+        for(int k = 0; k &lt; 3; k++)
+            std::cin &gt;&gt; arr[i][j][k];</code></pre>
+</section>
+<section id="回顧" class="slide level1">
+<h1>回顧</h1>
+<ul>
+<li>陣列初始化</li>
+<li>多維陣列</li>
+<li>多維陣列初始化</li>
+<li>多維陣列操作</li>
+</ul>
+</section>
+<section id="section-11" class="slide level1">
+<h1></h1>
+<h2 id="練習題踩地雷">練習題：踩地雷</h2>
+<p>給一個地雷地圖，算出每格周圍八格有地雷的總數。</p>
+</section>
+    </div>
+  </div>
+
+  <script src="../reveal.js/lib/js/head.min.js"></script>
+  <script src="../reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: false,
+        progress: true,
+        history: true,
+        center: true,
+        fragments: true,
+        theme: "default1", 
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '../reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>
+

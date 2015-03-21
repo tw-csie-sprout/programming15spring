@@ -28,6 +28,6 @@
 
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
-| 多維陣列| | |
+| 多維陣列|[03-multarr](./pages/uploads/presentations/week03/multarr/slides.html) | |
 | 迴圈 | | |
 | 點陣圖 | [03-bmp-00.pdf](./pages/uploads/presentations/week03/03-bmp-00.pdf) |  |
