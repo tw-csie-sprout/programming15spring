@@ -10,9 +10,16 @@
 | 第二週 0314 |  | [208-季節判斷](http://2015.sprout.csie.org/oj/pro/208/)、[203-終極倒數](http://2015.sprout.csie.org/oj/pro/203/)、[209-σ．σ](http://2015.sprout.csie.org/oj/pro/209/) | [206-複習九九乘法](http://2015.sprout.csie.org/oj/pro/206/) | 樹大招風 [210-改](http://2015.sprout.csie.org/oj/pro/210/)、[211-改二](http://2015.sprout.csie.org/oj/pro/211/)、[212-改三](http://2015.sprout.csie.org/oj/pro/212/) |
 | 第三週 0321 | | [214-踩地雷](http://2015.sprout.csie.org/oj/pro/214/)、[215-全部是零](http://2015.sprout.csie.org/oj/pro/215/)、[216-字串長度](http://2015.sprout.csie.org/oj/pro/216/) | [218-字串種數](http://2015.sprout.csie.org/oj/pro/218/) | [217-凱薩密碼](http://2015.sprout.csie.org/oj/pro/217/) |
 
-## 點陣圖
+## 點陣圖 (第一階段)
+### 作業內容
 
-- 第一階段點陣圖作業
+    * 繳交期限: 2015/04/11 (六) 08:00am (3 weeks); 方法待公佈
+
+    * 內容: Sobel filter (Announced on 2015/03/21)
+
+    * 請繳交程式以及一份文件, 描述你做了什麼, 是否遇到什麼議題等
+
+### 相關檔案
 
     * [[作業投影片 `03-bmp-00.pdf`]](./pages/uploads/presentations/week03/03-bmp-00.pdf)
 
@@ -22,7 +29,7 @@
 
         Creative Commons 2.0 授權
 
-    * 範例: [[黑白]](./pages/uploads/documents/homework-bmp/bmp_monochrome.cpp) [[泡泡]](./pages/uploads/documents/homework-bmp/bmp_bubble.cpp) [[失焦]](./pages/uploads/documents/homework-bmp/bmp_defocus.cpp)
+    * 範例: [[黑白]](./pages/uploads/documents/homework-bmp/bmp_monochrome.cpp) [[泡泡]](./pages/uploads/documents/homework-bmp/bmp_bubble.cpp) [[失焦]](./pages/uploads/documents/homework-bmp/bmp_out_of_focus_blur.cpp)
 
 ## 小遊戲
 

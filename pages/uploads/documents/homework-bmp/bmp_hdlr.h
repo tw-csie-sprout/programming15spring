@@ -1,6 +1,6 @@
 #pragma once
 
-// avoid dependency of C++11 (cstdint)
+// avoid dependency on C++11 (cstdint)
 #include <stdint.h>
 
 #include <vector>
@@ -20,9 +20,9 @@ namespace {
 static inline int padding4(int n) { return (n + 3)/4*4; } // should use 'size_t' instead
 
 class Bitmap {
-  // The header specialized for 24-bit BI_RGB bmp reading/writing,
+  // The header is specialized for 24-bit BI_RGB bmp reading/writing, and
   // have all uninteresting fields left blank. For complete information,
-  // please see the BITMAPFILEHEADER and BITMAPINFOHEADER in windows.h
+  // please refer to BITMAPFILEHEADER and BITMAPINFOHEADER in windows.h
   // or consult Wikipedia.
   struct __attribute__ ((packed)) bmp_io_t {
     uint32_t size;              // total file size
@@ -35,7 +35,7 @@ class Bitmap {
     uint16_t bits_per_pixel;    // assumed to be 24
     uint32_t compress_method;   // must be BI_RGB, 0
     uint32_t image_size;        // the size of the raw bitmap data
-    uint32_t zeroes[4];         // 4 uninteresting field, set to 0
+    uint32_t zeroes[4];         // 4 uninteresting fields, set to 0
   };
 public:
   Bitmap() {
@@ -45,13 +45,13 @@ public:
       return;
     }
 
-    // Ignore  error handling for now
+    // Ignore error handling for now
     char B, M;
     bmp_io_t bmp_hdr;
     fin >> B >> M;
     fin.read(reinterpret_cast<char*>(&bmp_hdr), sizeof bmp_hdr);
 
-    // handle file of size at most 50MB
+    // Handle file of size at most 50MB
     if (bmp_hdr.image_size > 50*1024*1024) {
       std::cerr << "Input file size too large: " << bmp_hdr.image_size << "\n";
       return;
@@ -86,9 +86,9 @@ public:
     for (int i = 0; i != height; ++i) {
       for (int j = 0; j != width; ++j) {
         const int pos = (height - i - 1)*padded_width + j*3; // flip the coordinate system vertically
-        buf[pos+0] = static_cast<unsigned char>(std::min(255, canvas_b[i][j]));
-        buf[pos+1] = static_cast<unsigned char>(std::min(255, canvas_g[i][j]));
-        buf[pos+2] = static_cast<unsigned char>(std::min(255, canvas_r[i][j]));
+        buf[pos+0] = static_cast<unsigned char>(std::min(255, std::max(0, canvas_b[i][j])));
+        buf[pos+1] = static_cast<unsigned char>(std::min(255, std::max(0, canvas_g[i][j])));
+        buf[pos+2] = static_cast<unsigned char>(std::min(255, std::max(0, canvas_r[i][j])));
       }
     }
     bmp_io_t bmp_hdr = {
@@ -100,9 +100,9 @@ public:
       height,
       1,                                          // # of color planes
       24,                                         // bits per pixel
-      0,                                          // BI_RGP
+      0,                                          // BI_RGB
       static_cast<uint32_t>(height*padded_width), // image size
-      {0,0,0,0}                                   // resrerved
+      {0,0,0,0}                                   // reserved
     };
     fout << "BM";
     fout.write(reinterpret_cast<char*>(&bmp_hdr), sizeof bmp_hdr);
