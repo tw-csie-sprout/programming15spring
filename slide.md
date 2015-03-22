@@ -18,17 +18,17 @@
 | :-------------: |:-------------:| :-----:|
 | if 陳述式      | [if.pdf](./pages/uploads/presentations/week02/if.pdf) |    |
 | for 陳述式     | [for_4_3.pdf](./pages/uploads/presentations/week02/for_4_3.pdf) [for_16_9.pdf](./pages/uploads/presentations/week02/for_16_9.pdf)      |     |
-| 一維陣列 |  [02-array.pdf](./pages/uploads/presentations/week02/02-array.pdf)      |[Hsinchu0314.pdf](./pages/uploads/presentations/week02/Hsinchu0314.pdf)|
+| 一維陣列 |  [02-array.pdf](./pages/uploads/presentations/week02/02-array.pdf)      |[[Sprout][2015][Week02]-if&for&array.pdf](./pages/uploads/presentations/week02/Hsinchu0314.pdf)|
 |整合範例與作業|[02-integrated-examples.pdf](./pages/uploads/presentations/week02/02-integrated-examples.pdf)| |
 
 
 
 
-### 第三週投影片 03/14
+### 第三週投影片 03/21
 
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 多維陣列|[03-multarr](./pages/uploads/presentations/week03/multarr/slides.html) | |
-| 迴圈 | [03-loop2](./pages/uploads/presentations/week03/loop2/slides.html) | |
-| 字串(I) | [03-cstring](./pages/uploads/presentations/week03/cstring/slides.html) | |
+| 迴圈 | [03-loop2](./pages/uploads/presentations/week03/loop2/slides.html) |[[Sprout][2015][Week03]-loop2.pdf](./pages/uploads/presentations/week03/0321loop.pdf)|
+| 字串(I) | [03-cstring](./pages/uploads/presentations/week03/cstring/slides.html) |[[Sprout][2015][Week03]-string.pdf](./pages/uploads/presentations/week03/0321string.pdf) |
 | 點陣圖 | [03-bmp-00.pdf](./pages/uploads/presentations/week03/03-bmp-00.pdf) |  |
