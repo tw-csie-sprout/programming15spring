@@ -16,6 +16,6 @@ for i = 0 ~ n-1
             // legal : 0 <= x < n and 0 <= y < m
             if (x, y) is legal
                 if arr[x][y] is 1 // has bomb
-                    cnt[x][y] += 1
+                    cnt[i][j] += 1
 
 print cnt
