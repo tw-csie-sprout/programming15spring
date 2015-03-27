@@ -21,15 +21,17 @@
 
 ### 相關檔案
 
-* [[作業投影片 `03-bmp-00.pdf`]](./pages/uploads/presentations/week03/03-bmp-00.pdf)
+* [[作業投影片 `03-bmp-00.pdf`]](./pages/uploads/presentations/week03/03-bmp-00.pdf) [[作業投影片 `03-bmp-01.pdf`]](./pages/uploads/presentations/week04/03-bmp-01.pdf)
 
-* [[函式庫 `bmp_hdlr.h`]](./pages/uploads/documents/homework-bmp/bmp_hdlr.h) [[測試圖片]](./pages/uploads/images/homework-bmp/sprout03_in.bmp)
+* [[函式庫 `bmp_hdlr.h`]](./pages/uploads/documents/homework-bmp/bmp_hdlr.h) [[測試圖片]](./pages/uploads/images/homework-bmp/sprout03_in.bmp) [[樹葉貼圖素材]](./pages/uploads/images/homework-bmp/bmp_random_leaf_in.bmp)
 
     + 圖片來源: Les Haines, 於 <https://www.flickr.com/photos/leshaines123/9817029973/>
 
     Creative Commons 2.0 授權
 
-* 範例: [[黑白]](./pages/uploads/documents/homework-bmp/bmp_monochrome.cpp) [[泡泡]](./pages/uploads/documents/homework-bmp/bmp_bubble.cpp) [[失焦]](./pages/uploads/documents/homework-bmp/bmp_out_of_focus_blur.cpp)
+* 範例 (I): [[黑白]](./pages/uploads/documents/homework-bmp/bmp_monochrome.cpp) [[泡泡]](./pages/uploads/documents/homework-bmp/bmp_bubble.cpp) [[失焦]](./pages/uploads/documents/homework-bmp/bmp_out_of_focus_blur.cpp)
+
+* 範例 (II): [[YCbCr]](./pages/uploads/documents/homework-bmp/bmp_ycbcr.cpp) [[誤差擴散]](./pages/uploads/documents/homework-bmp/bmp_error_diffuse.cpp) [[銳化]](./pages/uploads/documents/homework-bmp/bmp_unsharpmask.cpp) [[HSL]](./pages/uploads/documents/homework-bmp/bmp_hsl.cpp) [[Random (I)]](./pages/uploads/documents/homework-bmp/bmp_random_circle.cpp) [[Random (II)]](./pages/uploads/documents/homework-bmp/bmp_random_collage.cpp) [[樹葉貼圖]](././pages/uploads/documents/homework-bmp/bmp_random_leaf.cpp)
 
 ## 小遊戲
 

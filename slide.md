@@ -32,3 +32,8 @@
 | 迴圈 | [03-loop2](./pages/uploads/presentations/week03/loop2/slides.html) |[[Sprout][2015][Week03]-loop2.pdf](./pages/uploads/presentations/week03/0321loop.pdf)|
 | 字串(I) | [03-cstring](./pages/uploads/presentations/week03/cstring/slides.html) |[[Sprout][2015][Week03]-string.pdf](./pages/uploads/presentations/week03/0321string.pdf) |
 | 點陣圖 | [03-bmp-00.pdf](./pages/uploads/presentations/week03/03-bmp-00.pdf) |[[Sprout][2015][week03]-RGB&BMP.pdf](./pages/uploads/presentations/week03/RGB & BMP.pdf)  |
+
+### 第四週投影片 03/28
+|               | 臺北區        | 新竹區 |
+|:-------------:|:-------------:|:------:|
+| 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) | |
