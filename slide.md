@@ -37,4 +37,5 @@
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 迴圈 ||[[Sprout][2015][week04]-review, hw, and while loop.pdf](./pages/uploads/presentations/week04/review, homework, and while loop.pdf)|
+|||[[Sprout][2015][week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf) [[Sprout][2015][week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
 | 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) | |
