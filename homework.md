@@ -15,9 +15,21 @@
 
 * 繳交期限: 2015/04/11 (六) 08:00am (3 weeks); 方法待公佈
 
-* 內容: Sobel filter (2015/03/21)
+* 寄到「**sprout+prog15** *AT* **csie.ntu.edu.tw**」
 
-* 請繳交程式以及一份文件, 描述你做了什麼, 是否遇到什麼議題等
+    - 標題: 「[資訊之芽] [語法班] Bitmap 作業*姓名*」
+    - 請把以上樣板**複製貼上**; 不含雙引號
+
+* 繳交一個壓縮檔, 包含
+
+    - 一份 README 文件([範例](https://github.com/tw-csie-sprout/programming15spring/tree/gh-pages/pages/uploads/documents/homework-bmp/README.md)), 格式不拘, 至少描述你的設計
+    - 你的程式碼 (`.cpp`, 例如 Sobel filter, 亂數圖片各一份程式)
+    - 輸入與輸出的圖片
+
+* 評分原則:
+
+    - 60-80:  完成 Sobel filter, 依 coding style 評分
+    - 80-100: 其他設計/嘗試 如生成其他圖片
 
 ### 相關檔案
 
