@@ -31,11 +31,11 @@
 | 多維陣列|[03-multarr](./pages/uploads/presentations/week03/multarr/slides.html) |[[Sprout][2015][Week03]-review&multi-array.pdf](./pages/uploads/presentations/week03/0321hw&review&multi-array.pdf) [[Sprout][2015][week03]-practice#214.pdf](./pages/uploads/presentations/week03/214landmine.pdf) |
 | 迴圈 | [03-loop2](./pages/uploads/presentations/week03/loop2/slides.html) |[[Sprout][2015][Week03]-loop2.pdf](./pages/uploads/presentations/week03/0321loop.pdf)|
 | 字串(I) | [03-cstring](./pages/uploads/presentations/week03/cstring/slides.html) |[[Sprout][2015][Week03]-string.pdf](./pages/uploads/presentations/week03/0321string.pdf) |
-| 點陣圖 | [03-bmp-00.pdf](./pages/uploads/presentations/week03/03-bmp-00.pdf) [作業](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_(第一階段)) | [[Sprout][2015][week03]-RGB&BMP.pdf](./pages/uploads/presentations/week03/RGB & BMP.pdf)  |
+| 點陣圖 | [03-bmp-00.pdf](./pages/uploads/presentations/week03/03-bmp-00.pdf) [作業](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | [[Sprout][2015][week03]-RGB&BMP.pdf](./pages/uploads/presentations/week03/RGB & BMP.pdf)  |
 
 ### 第四週投影片 03/28
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 迴圈 ||[[Sprout][2015][week04]-review, hw, and while loop.pdf](./pages/uploads/presentations/week04/review, homework, and while loop.pdf)|
 |||[[Sprout][2015][week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf) [[Sprout][2015][week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
-| 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [作業](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_(第一階段)) | &nbsp; |
+| 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [作業](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | &nbsp; |
