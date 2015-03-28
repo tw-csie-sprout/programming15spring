@@ -1,4 +1,4 @@
-# Bitmap 作業報告
+(# Bitmap 作業報告
 資訊之芽
 sprout AT csie.ntu.edu.tw
 
@@ -6,7 +6,7 @@ sprout AT csie.ntu.edu.tw
 
 本次作業我實作了 Sobel filter，也另外產生了三種隨機圖片。Sobel filter 除了課堂上的原始版本，我也嘗試把運算結果疊加回原本圖片，模擬自動加邊框的效果。而另外三種隨機圖片都是以簡單圖形疊加的方式產生，前兩種是疊加基本幾何圖形，第三種是複製輸入的素材。
 
-## 實作方法與結果
+## 實作方法與結果)
 ### Sobel Filter
 
 Sobel filter 實作的結果如下圖。最左邊是原始圖片，經過 Sobel filter 運算的結果如中間。我同時也嘗試把 Sobel filter 產生的結果直接疊加到原始圖片的 B 分量，結果就像給原始圖片加上邊框，效果如右圖。
@@ -21,7 +21,7 @@ int threshold = 60;
 int gx = ...;
 int gy = ...;
 
-buf_b[i][j] = (int)(std::sqrt(gx*gx + gy*gy))/threshold*threshold;
+buf_b[i][j] = ((int)std::sqrt(gx*gx + gy*gy))/threshold*threshold;
 ```
 
 ### 產生隨機圖片
