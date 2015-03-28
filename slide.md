@@ -19,7 +19,7 @@
 | if 陳述式      | [if.pdf](./pages/uploads/presentations/week02/if.pdf) |    |
 | for 陳述式     | [for_4_3.pdf](./pages/uploads/presentations/week02/for_4_3.pdf) [for_16_9.pdf](./pages/uploads/presentations/week02/for_16_9.pdf)      |     |
 | 一維陣列 |  [02-array.pdf](./pages/uploads/presentations/week02/02-array.pdf)      |[[Sprout][2015][Week02]-if&for&array.pdf](./pages/uploads/presentations/week02/Hsinchu0314.pdf)|
-|整合範例與作業|[02-integrated-examples.pdf](./pages/uploads/presentations/week02/02-integrated-examples.pdf)| |
+|整合範例與作業|[02-integrated-examples.pdf](./pages/uploads/presentations/week02/02-integrated-examples.pdf)| &nbsp; |
 
 
 
