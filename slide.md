@@ -2,7 +2,8 @@
 
 ### 第一週投影片 03/07
 
-|    |臺北區| 新竹區
+|:-------------:|:-------------:|:------:|
+|    |臺北區| 新竹區|
 |:---:|:---:|:---:|
 | 課程介紹 | [01-intro.pdf](./pages/uploads/presentations/week01/01-intro.pdf) | [[Week01]-Introduction-to-sprout.pdf](./pages/uploads/presentations/week01/[Sprout][2015][Week01]-Introduction-to-sprout.pdf) |
 | 背景知識 | [01-background.pdf](./pages/uploads/presentations/week01/01-background.pdf) | [[Week01]-Background.pdf](./pages/uploads/presentations/week01/[Sprout][2015][Week01]-Background.pdf) |
@@ -12,6 +13,7 @@
 
 ### 第二週投影片 03/14
 
+|:-------------:|:-------------:|:------:|
 |               | 臺北區         | 新竹區  |
 | :-------------: |:-------------:| :-----:|
 | if 陳述式      | [if.pdf](./pages/uploads/presentations/week02/if.pdf) |    |
@@ -22,6 +24,7 @@
 
 ### 第三週投影片 03/21
 
+|:-------------:|:-------------:|:------:|
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 多維陣列|[03-multarr](./pages/uploads/presentations/week03/multarr/slides.html) |[[Week03]-review&multi-array.pdf](./pages/uploads/presentations/week03/0321hw&review&multi-array.pdf)<br>[[week03]-practice#214.pdf](./pages/uploads/presentations/week03/214landmine.pdf) |
@@ -31,10 +34,11 @@
 
 
 ### 第四週投影片 03/28
+|:-------------:|:-------------:|:------:|
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 迴圈 ||[[week04]-review, hw, and while loop.pdf](./pages/uploads/presentations/week04/review, homework, and while loop.pdf)|
-| 程式風格與資料型別 ||[[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf) [[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
+| 程式風格與資料型別 ||[[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf)<br>[[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
 | 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | &nbsp; |
 
 
