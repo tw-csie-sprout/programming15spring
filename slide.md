@@ -2,7 +2,6 @@
 
 ### 第一週投影片 03/07
 
-|:-------------:|:-------------:|:------:|
 |    |臺北區| 新竹區|
 |:---:|:---:|:---:|
 | 課程介紹 | [01-intro.pdf](./pages/uploads/presentations/week01/01-intro.pdf) | [[Week01]-Introduction-to-sprout.pdf](./pages/uploads/presentations/week01/[Sprout][2015][Week01]-Introduction-to-sprout.pdf) |
@@ -13,7 +12,6 @@
 
 ### 第二週投影片 03/14
 
-|:-------------:|:-------------:|:------:|
 |               | 臺北區         | 新竹區  |
 | :-------------: |:-------------:| :-----:|
 | if 陳述式      | [if.pdf](./pages/uploads/presentations/week02/if.pdf) |    |
@@ -24,7 +22,6 @@
 
 ### 第三週投影片 03/21
 
-|:-------------:|:-------------:|:------:|
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 多維陣列|[03-multarr](./pages/uploads/presentations/week03/multarr/slides.html) |[[Week03]-review&multi-array.pdf](./pages/uploads/presentations/week03/0321hw&review&multi-array.pdf)<br>[[week03]-practice#214.pdf](./pages/uploads/presentations/week03/214landmine.pdf) |
@@ -34,7 +31,6 @@
 
 
 ### 第四週投影片 03/28
-|:-------------:|:-------------:|:------:|
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 迴圈 ||[[week04]-review, hw, and while loop.pdf](./pages/uploads/presentations/week04/review, homework, and while loop.pdf)|
