@@ -14,22 +14,22 @@ $endif$
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="../$revealjs-url$/css/reveal.min.css"/>
+  <link rel="stylesheet" href="../../$revealjs-url$/css/reveal.min.css"/>
     <style type="text/css">code{white-space: pre;}</style>
 $if(highlighting-css)$
     <style type="text/css">
 $highlighting-css$
     </style>
 $endif$
-    <link rel="stylesheet" href="../$revealjs-url$/css/theme/default1.css" id="theme">
+    <link rel="stylesheet" href="../../$revealjs-url$/css/theme/default1.css" id="theme">
 
 
     <!-- For syntax highlighting using highlight.js-->
 $if(hlss)$
-    <link rel="stylesheet" href="../$revealjs-url$/lib/css/$hlss$.css">
+    <link rel="stylesheet" href="../../$revealjs-url$/lib/css/$hlss$.css">
 $endif$
 
-  <link rel="stylesheet" media="print" href="../$revealjs-url$/css/print/pdf.css" />
+  <link rel="stylesheet" media="print" href="../../$revealjs-url$/css/print/pdf.css" />
   <!--[if lt IE 9]>
   <script src="../$revealjs-url$/lib/js/html5shiv.js"></script>
   <![endif]-->
@@ -72,8 +72,8 @@ $for(include-after)$
 $include-after$
 $endfor$
 
-  <script src="../$revealjs-url$/lib/js/head.min.js"></script>
-  <script src="../$revealjs-url$/js/reveal.min.js"></script>
+  <script src="../../$revealjs-url$/lib/js/head.min.js"></script>
+  <script src="../../$revealjs-url$/js/reveal.min.js"></script>
 
   <script>
 
@@ -89,11 +89,11 @@ $endfor$
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
-          { src: '../$revealjs-url$/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: '../$revealjs-url$/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-          { src: '../$revealjs-url$/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '../../$revealjs-url$/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../../$revealjs-url$/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '../../$revealjs-url$/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 $if(hlss)$
-          { src: '../$revealjs-url$/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '../../$revealjs-url$/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 $endif$
 //          { src: '$revealjs-url$/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
 //          { src: '$revealjs-url$/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
