@@ -38,6 +38,12 @@
 | 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | &nbsp; |
 | 函數呼叫 | [Func_call_and_rand](./pages/uploads/presentations/week04/function_call_north.pdf)| [Function Call](./pages/uploads/presentations/week04/Function-call.pdf) |
 
+### 第四週投影片 04/11
+
+|               | 臺北區        | 新竹區 |
+|:-------------:|:-------------:|:------:|
+| 函數：參數傳遞、生命週期 | [fun-params.pdf](./pages/uploads/presentations/week05/fun-params.pdf) | &nbsp; |
+
 ### 補充資料
 |           | 主題 |
 |:---------:|:----:|
