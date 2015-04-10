@@ -41,7 +41,7 @@
 ### 第四週投影片 04/11
 
 |               |   竹 & 北區   |
-|--------------:|:--------------|
+|:-------------:|:-------------:|
 | 函數：語法、宣告與實作 | [fun-dec.pdf](./pages/uploads/presentations/week05/fun-dec.pdf) |
 | 函數：使用時機 | [fun_write.pdf](./pages/uploads/presentations/week05/fun_write.pdf) |
 | 函數：參數傳遞、生命週期 | [fun-params.pdf](./pages/uploads/presentations/week05/fun-params.pdf) |
