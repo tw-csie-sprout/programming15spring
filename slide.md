@@ -42,6 +42,7 @@
 
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
+| 函數：語法、宣告與實作 | &nbsp; | [fun-dec.pdf](./pages/uploads/presentations/week05/fun-dec.pdf) |
 | 函數：參數傳遞、生命週期 | [fun-params.pdf](./pages/uploads/presentations/week05/fun-params.pdf) | &nbsp; |
 
 ### 補充資料
