@@ -27,23 +27,24 @@
 | 多維陣列|[03-multarr](./pages/uploads/presentations/week03/multarr/slides.html) |[[Week03]-review&multi-array.pdf](./pages/uploads/presentations/week03/0321hw&review&multi-array.pdf)<br>[[week03]-practice#214.pdf](./pages/uploads/presentations/week03/214landmine.pdf) |
 | 迴圈 | [03-loop2](./pages/uploads/presentations/week03/loop2/slides.html) |[[Week03]-loop2.pdf](./pages/uploads/presentations/week03/0321loop.pdf)|
 | 字串(I) | [03-cstring](./pages/uploads/presentations/week03/cstring/slides.html) |[[Week03]-string.pdf](./pages/uploads/presentations/week03/0321string.pdf) |
-| 點陣圖 | [03-bmp-00.pdf](./pages/uploads/presentations/week03/03-bmp-00.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | [[week03]-RGB&BMP.pdf](./pages/uploads/presentations/week03/RGB & BMP.pdf)  |
+| 點陣圖 | [03-bmp-00.pdf;](./pages/uploads/presentations/week03/03-bmp-00.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | [[week03]-RGB&BMP.pdf](./pages/uploads/presentations/week03/RGB & BMP.pdf)  |
 
 
 ### 第四週投影片 03/28
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 迴圈 | [01-ctrl](./pages/uploads/presentations/week04/loop2/slides.html)|[[week04]-review, hw, and while loop.pdf](./pages/uploads/presentations/week04/review, homework, and while loop.pdf)|
-| 程式風格與資料型別 ||[[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf)<br>[[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
-| 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | &nbsp; |
+| 程式風格與資料型別 | [[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf)<br>[[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf) |[[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf)<br>[[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
 | 函數呼叫 | [Func_call_and_rand](./pages/uploads/presentations/week04/function_call_north.pdf)| [Function Call](./pages/uploads/presentations/week04/Function-call.pdf) |
+| 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) |
 
-### 第四週投影片 04/11
+### 第五週投影片 04/11
 
-|               | 臺北區        | 新竹區 |
-|:-------------:|:-------------:|:------:|
-| 函數：語法、宣告與實作 | &nbsp; | [fun-dec.pdf](./pages/uploads/presentations/week05/fun-dec.pdf) |
-| 函數：參數傳遞、生命週期 | [fun-params.pdf](./pages/uploads/presentations/week05/fun-params.pdf) | &nbsp; |
+|               |   竹 & 北區   |
+|:-------------:|:-------------:|
+| 函數：語法、宣告與實作 | [fun-dec.pdf](./pages/uploads/presentations/week05/fun-dec.pdf) |
+| 函數：使用時機 | [func_write.pdf](./pages/uploads/presentations/week05/func_write.pdf) |
+| 函數：參數傳遞、生命週期 | [fun-params.pdf](./pages/uploads/presentations/week05/fun-params.pdf) |
 
 ### 補充資料
 |           | 主題 |
