@@ -34,11 +34,11 @@
 |               | 臺北區        | 新竹區 |
 |:-------------:|:-------------:|:------:|
 | 迴圈 | [01-ctrl](./pages/uploads/presentations/week04/loop2/slides.html)|[[week04]-review, hw, and while loop.pdf](./pages/uploads/presentations/week04/review, homework, and while loop.pdf)|
-| 程式風格與資料型別 ||[[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf)<br>[[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
+| 程式風格與資料型別 | [[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf)<br>[[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf) |[[week04]-coding style.pdf](./pages/uploads/presentations/week04/CodingStyle.pdf)<br>[[week04]-data type and cast.pdf](./pages/uploads/presentations/week04/Data-type-cast.pdf)
 | 函數呼叫 | [Func_call_and_rand](./pages/uploads/presentations/week04/function_call_north.pdf)| [Function Call](./pages/uploads/presentations/week04/Function-call.pdf) |
-| 點陣圖 | [03-bmp-01.pdf;](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | &nbsp; |
+| 點陣圖 | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) | [03-bmp-01.pdf](./pages/uploads/presentations/week04/03-bmp-01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#點陣圖_%28第一階段%29) |
 
-### 第四週投影片 04/11
+### 第五週投影片 04/11
 
 |               |   竹 & 北區   |
 |:-------------:|:-------------:|
