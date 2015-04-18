@@ -51,5 +51,6 @@
 ## 小遊戲
 
 - 函式庫 <http://w.csie.org/~b02902029/smallgame/>
+- [程式碼] (./pages/uploads/resources/smallgame.zip)
 
 ## 解釋器
