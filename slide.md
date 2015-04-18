@@ -46,6 +46,16 @@
 | 函數：使用時機 | [func_write.pdf](./pages/uploads/presentations/week05/func_write.pdf) |
 | 函數：參數傳遞、生命週期 | [fun-params.pdf](./pages/uploads/presentations/week05/fun-params.pdf) |
 
+### 第六週投影片 04/18
+
+|               |   竹 & 北區   |
+|:-------------:|:-------------:|
+| 遞迴I | [recursion.pdf](./pages/uploads/presentations/week06/recursion.pdf) |
+| Const | [const.pdf](./pages/uploads/presentations/week06/const.pdf) |
+| 小遊戲 | [smallgame.pdf](./pages/uploads/presentations/week06/smallgame.pdf) |
+| 小遊戲-安裝GLUT | [install.pdf](./pages/uploads/presentations/week06/install.pdf) |
+| 小遊戲Extra | [extra.pdf](./pages/uploads/presentations/week06/extra.pdf) |
+
 ### 補充資料
 |           | 主題 |
 |:---------:|:----:|
