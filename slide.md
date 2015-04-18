@@ -53,10 +53,10 @@
 | 遞迴I | [recursion.pdf](./pages/uploads/presentations/week06/recursion.pdf) |
 | Const | [const.pdf](./pages/uploads/presentations/week06/const.pdf) |
 | 小遊戲 | [smallgame.pdf](./pages/uploads/presentations/week06/smallgame.pdf) |
-| 小遊戲-安裝GLUT | [install.pdf](./pages/uploads/presentations/week06/install.pdf) |
-| 小遊戲Extra | [extra.pdf](./pages/uploads/presentations/week06/extra.pdf) |
+| 小遊戲-安裝 MinGW | [install-mingw.pdf](./pages/uploads/presentations/week06/install-mingw.pdf) |
+| 小遊戲-安裝 GLUT | [install.pdf](./pages/uploads/presentations/week06/install.pdf) |
+| 小遊戲 Extra | [extra.pdf](./pages/uploads/presentations/week06/extra.pdf) |
 | 一半一半搜尋 | [bsearch.pdf](./pages/uploads/presentations/week06/bsearch.pdf) |
-| Install MinGW | [install-mingw.pdf](./pages/uploads/presentations/week06/install-mingw.pdf) |
 
 ### 補充資料
 |           | 主題 |
