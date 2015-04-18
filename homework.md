@@ -50,7 +50,28 @@
 
 ## 小遊戲
 
-- 函式庫 <http://w.csie.org/~b02902029/smallgame/>
-- [程式碼](./pages/uploads/resources/smallgame.zip)
+
+作業內容
+
+- [待完成程式碼](./pages/uploads/resources/smallgame.zip)
+
+* 繳交期限: 2015/05/02 (六) 08:00am (2 weeks)
+
+* 寄到「**sprout+prog15** *AT* **csie.ntu.edu.tw**」
+
+	* 標題: 「[資訊之芽] [語法班] 小遊戲 作業姓名」
+	* 請把以上樣板複製貼上; 不含雙引號
+
+* 繳交**一個** **壓縮檔**, 包含
+
+	* 一份 README 文件(範例)
+	* 你的程式碼(完整的`main.cpp`)
+
+相關檔案
+
+* [測試編譯GLUT](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/install.pdf) 
+* [安裝MinGW](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/install-mingw.pdf)
+* [Demonstration](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/smallgame.pdf) 
+* [Extra](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/extra.pdf)
 
 ## 解釋器
