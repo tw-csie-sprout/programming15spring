@@ -48,9 +48,9 @@
 
 ### 第六週投影片 04/18
 
-|               |   竹 & 北區   |
-|:-------------:|:-------------:|
-| 遞迴I | [recursion.pdf](./pages/uploads/presentations/week06/recursion.pdf) |
+|               |   北區   | 竹區 |
+|:-------------:|:-------------:||:----:|
+| 遞迴I | [recursion.pdf](./pages/uploads/presentations/week06/recursion.pdf) | [recursion_hsinchu.pdf](./pages/uploads/presentations/week06/recursion_hsinchu.pdf) |
 | Const | [const.pdf](./pages/uploads/presentations/week06/const.pdf) |
 | 小遊戲 | [smallgame.pdf](./pages/uploads/presentations/week06/smallgame.pdf) |
 | 小遊戲-安裝 MinGW | [install-mingw.pdf](./pages/uploads/presentations/week06/install-mingw.pdf) |
