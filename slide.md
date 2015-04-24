@@ -58,6 +58,13 @@
 | 小遊戲 Extra | [extra.pdf](./pages/uploads/presentations/week06/extra.pdf) | |
 | 一半一半搜尋 | [bsearch.pdf](./pages/uploads/presentations/week06/bsearch.pdf) | |
 
+### 第七週投影片 04/25
+|               |   竹 & 北區 |
+|:-------------:|:-------------:|:----:|
+| 編譯器 | [compiler.pdf](https://drive.google.com/open?id=0B13ab_fQ7QbjZmZQUmRWUXE0cHc&authuser=0) |
+
+
+
 ### 補充資料
 |           | 主題 |
 |:---------:|:----:|
