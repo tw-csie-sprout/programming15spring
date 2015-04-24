@@ -59,9 +59,9 @@
 | 一半一半搜尋 | [bsearch.pdf](./pages/uploads/presentations/week06/bsearch.pdf) | |
 
 ### 第七週投影片 04/25
-
 |               |   北區   | 竹區 |
 |:-------------:|:-------------:|:----:|
+| 編譯器 | [compiler.pdf](https://drive.google.com/open?id=0B13ab_fQ7QbjZmZQUmRWUXE0cHc&authuser=0) |
 | 迴圈複習 | [struct-prog.pdf](./pages/uploads/presentations/week07/struct-prog.pdf) | &nbsp; |
 
 ### 補充資料

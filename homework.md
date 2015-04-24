@@ -53,7 +53,7 @@
 
 作業內容
 
-- [待完成程式碼](./pages/uploads/resources/smallgame.zip)
+- [待完成程式碼](https://drive.google.com/open?id=0B13ab_fQ7QbjTHVXU1RBeFZObHM&authuser=0)
 
 * 繳交期限: 2015/05/02 (六) 08:00am (2 weeks)
 
