@@ -56,13 +56,14 @@
 | 小遊戲-安裝 MinGW | [install-mingw.pdf](./pages/uploads/presentations/week06/install-mingw.pdf) | |
 | 小遊戲-安裝 GLUT | [install.pdf](./pages/uploads/presentations/week06/install.pdf) | |
 | 小遊戲 Extra | [extra.pdf](./pages/uploads/presentations/week06/extra.pdf) | |
-| 一半一半搜尋 | [bsearch.pdf](./pages/uploads/presentations/week06/bsearch.pdf) | |
+| 一半一半搜尋 | [bsearch.pdf](./pages/uploads/presentations/week06/bsearch.pdf) | &nbsp; |
 
 ### 第七週投影片 04/25
 |               |   北區   | 竹區 |
 |:-------------:|:-------------:|:----:|
-| 編譯器 | [compiler.pdf](https://drive.google.com/open?id=0B13ab_fQ7QbjZmZQUmRWUXE0cHc&authuser=0) |
+| 編譯器 | [compiler.pdf](https://drive.google.com/open?id=0B13ab_fQ7QbjZmZQUmRWUXE0cHc&authuser=0) | |
 | 迴圈複習 | [struct-prog.pdf](./pages/uploads/presentations/week07/struct-prog.pdf) | &nbsp; |
+| 小遊戲(II) | [smallgame02.pdf](./pages/uploads/presentations/week07/smallgame02.pdf) | &nbsp; |
 
 ### 補充資料
 |           | 主題 |

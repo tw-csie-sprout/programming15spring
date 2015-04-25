@@ -64,8 +64,25 @@
 
 * 繳交**一個** **壓縮檔**, 包含
 
-	* 一份 README 文件(範例)
+	* 一份 EXTRA 文件(範例)
 	* 你的程式碼(完整的`main.cpp`)
+
+* 評分標準
+    
+    * Basic(84%)
+        這裏有兩種評分方式。
+        
+        * 第一種:三個函數的完成度，每個函數28%
+        * 第二種:遊戲正常運作，84%
+
+    * Coding Style(6%)
+        
+        不太誇張全拿
+
+    * Extra(10%)
+        
+        幫遊戲增加一個小功能,並且在 EXTRA.txt裡面寫個說明
+    
 
 相關檔案
 
@@ -73,5 +90,6 @@
 * [安裝MinGW](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/install-mingw.pdf)
 * [Demonstration](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/smallgame.pdf) 
 * [Extra](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/extra.pdf)
+* [小遊戲(II)](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week07/smallgame.pdf)
 
 ## 解釋器
