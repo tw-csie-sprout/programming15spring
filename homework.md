@@ -55,7 +55,7 @@
 
 - [待完成程式碼](https://drive.google.com/open?id=0B13ab_fQ7QbjTHVXU1RBeFZObHM&authuser=0)
 
-* 繳交期限: 2015/05/02 (六) 08:00am (2 weeks)
+* 繳交期限: 2015/05/05 (二) 08:00am (2 weeks + 72 hours)
 
 * 寄到「**sprout+prog15** *AT* **csie.ntu.edu.tw**」
 
