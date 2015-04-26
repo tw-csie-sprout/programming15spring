@@ -12,6 +12,8 @@
 | 第四週 0328 | 點陣圖 | [220-3n+1 Problem](http://2015.sprout.csie.org/oj/pro/220/) | [221-土地利用-Part I](http://2015.sprout.csie.org/oj/pro/221/) | [222-我愛正方形](http://2015.sprout.csie.org/oj/pro/222/) |
 | (放假) 0404 | 點陣圖 | &nbsp; | &nbsp; | &nbsp; |
 | 第五週 0411 | &nbsp; | [225-3n+1 Problem (II)](http://2015.sprout.csie.org/oj/pro/225/)、[224-超級 GCD](http://2015.sprout.csie.org/oj/pro/224/) | [226-成績統計](http://2015.sprout.csie.org/oj/pro/226/)、[18-很有事喔！](http://2015.sprout.csie.org/oj/pro/18/) | &nbsp; |
+| 第六週 0418 | 小遊戲(I) | &nbsp; | [227-一半一半搜尋](http://2015.sprout.csie.org/oj/pro/227/) |
+| 第七週 0425 | 小遊戲(I) | &nbsp; | &nbsp; |
 
 ## 點陣圖 (第一階段)
 ### 作業內容
