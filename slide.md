@@ -60,11 +60,16 @@
 
 ### 第七週投影片 04/25
 |               |   竹 &amp; 北區   |
-|:-------------:|:-------------:|:----:|
+|:-------------:|:-----------------:|
 | 編譯器 | [compiler.pdf](https://drive.google.com/open?id=0B13ab_fQ7QbjZmZQUmRWUXE0cHc&authuser=0) |
 | 迴圈複習 | [struct-prog.pdf](./pages/uploads/presentations/week07/struct-prog.pdf) |
 | 小遊戲(II) | [smallgame02.pdf](./pages/uploads/presentations/week07/smallgame02.pdf) |
 | iosfstream | [iosfstream.pdf](./pages/uploads/presentations/week07/iosfstream.pdf)<br>[Sample code](./pages/uploads/presentations/week07/iosfstream.zip) |
+
+### 第九週投影片 05/09
+|               |   竹 &amp; 北區   |
+|:-------------:|:-----------------:|
+| 小遊戲豆知識  | [game-related.pdf](./pages/uploads/presentations/week09/game-related.pdf) |
 
 ### 補充資料
 |           | 主題 |
