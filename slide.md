@@ -70,6 +70,7 @@
 |               |   竹 &amp; 北區   |
 |:-------------:|:-----------------:|
 | 小遊戲豆知識  | [game-related.pdf](./pages/uploads/presentations/week09/game-related.pdf) |
+|struct, sort, and b-search | [struct, sort, and b-search](./pages/uploads/presentations/week09/0509.pdf) |
 
 ### 補充資料
 |           | 主題 |
