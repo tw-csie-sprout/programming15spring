@@ -50,7 +50,7 @@
 
 * 範例 (II): [[YCbCr]](./pages/uploads/documents/homework-bmp/bmp_ycbcr.cpp) [[誤差擴散]](./pages/uploads/documents/homework-bmp/bmp_error_diffuse.cpp) [[銳化]](./pages/uploads/documents/homework-bmp/bmp_unsharpmask.cpp) [[HSL]](./pages/uploads/documents/homework-bmp/bmp_hsl.cpp) [[Random (I)]](./pages/uploads/documents/homework-bmp/bmp_random_circle.cpp) [[Random (II)]](./pages/uploads/documents/homework-bmp/bmp_random_collage.cpp) [[樹葉貼圖]](././pages/uploads/documents/homework-bmp/bmp_random_leaf.cpp)
 
-## 小遊戲
+## 小遊戲（一）
 
 
 作業內容
@@ -92,6 +92,76 @@
 * [安裝MinGW](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/install-mingw.pdf)
 * [Demonstration](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/smallgame.pdf) 
 * [Extra](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week06/extra.pdf)
-* [小遊戲(II)](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week07/smallgame.pdf)
+* [小遊戲](http://tw-csie-sprout.github.io/programming15spring/pages/uploads/presentations/week07/smallgame.pdf)
+
+## 小遊戲（二）
+
+
+作業內容
+
+- [待完成程式碼](https://drive.google.com/open?id=0B13ab_fQ7QbjVFZIMl8tLVQ0STA&authuser=0)
+
+* 繳交期限: 2015/05/30 (六) 08:00am (3 weeks)
+
+* 寄到「**sprout+prog15** *AT* **csie.ntu.edu.tw**」
+
+    * 標題: 「[資訊之芽] [語法班] 小遊戲二 作業姓名」
+    * 請把以上樣板複製貼上; 不含雙引號
+
+* 繳交**一個** **壓縮檔**, 包含
+
+    * 一份 EXTRA 文件(範例)
+    * 你的程式碼(完整的`pacman.cpp`)
+
+* [範例 DEMO](https://www.youtube.com/watch?v=_Xj04Obg-oc)
+
+* 實作目標
+
+    * Wall 
+        
+        - 分不同類別Style (10 pts)
+
+    * Pacman
+        
+        - 動畫（嘴巴一開一合） (10 pts)
+        - 被Ghost吃掉 (10 pts)
+        - 多命 (10 pts)
+
+    * Point
+        
+        - 出現 (10 pts)
+        - 被吃掉會消失 (10 pts)
+        - 吃點點有分數，且要顯示分數 (10 pts)
+
+    * Ghost
+        
+        - 會移動 (5 pts)
+        - 連續移動（不會瞬間移動）(10 pts)
+        - 不可穿越牆壁 (10 pts)
+        - 一隻以上 (10 pts)
+
+    * 遊戲整體
+
+        - 多重關卡 (10 pts)
+        - 遊戲開始，可實作選單或畫面 (10 pts)
+        - 遊戲結束畫面 (10 pts)
+
+    * 個別
+
+        - 加強**Ghost**移動
+
+            兩種加強方法（擇一）：
+
+            * 追蹤Pacman (30 pts)
+            * 移動比random平滑 (10pts)
+
+        - Star (10 pts)
+
+            **Pacman**吃了某個東西，**Ghost**會有一段時間可以被**Pacman**抓
+
+    * Other (10 pts)
+
+        假如有寫不在上列的功能，請寫個Extra.txt大概說明。
+
 
 ## 解釋器
