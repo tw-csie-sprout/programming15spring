@@ -32,7 +32,7 @@
 | 0411 05 |           | 編寫函數；scope；變數週期              |
 | 0418 06 | 小遊戲(I) | 遞迴(I)；const修飾                     |
 | 0425 07 | 小遊戲(I) | (使用compiler)；C/C++ IO簡介；課程回顧 |
-| 0502 08 |           | 考試                                   |
+| 0502 08 | 小遊戲(I) | 考試                                   |
 
 ### 第二階段
 
@@ -40,7 +40,7 @@
 | ------- |:-----------:|:--------------------------------------------------------- |
 | 0509 09 | 小遊戲(II)  | 簡單的介紹struct； 基礎排序、二分搜                       |
 | 0516 10 | 小遊戲(II)  | 指標&函數； 遞迴(II)                                      |
-| 0523 11 |             | struct； 動態記憶體；shared_ptr；unique_ptr；linked-list  |
+| 0523 11 | 小遊戲(II)  | struct； 動態記憶體；shared_ptr；unique_ptr；linked-list  |
 | 0530 12 | bmp(II)     | 模組化； (使用complier)； .h                              |
 | 0606 13 |             | vector, list, string；sort, next_permutation, lower_bound |
 | 0613 14 | Interpreter | 遞迴(III)；展望與回顧                                     |
