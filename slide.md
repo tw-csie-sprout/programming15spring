@@ -76,6 +76,8 @@
 |               |   竹 &amp; 北區   |
 |:-------------:|:-----------------:|
 | 遞迴  | [Recursive.pdf](./pages/uploads/presentations/week10/Recursive.pdf) |
+| 指標  | [Pointer.pdf](./pages/uploads/presentations/week10/Pointer.pdf) |
+| 函數(2)| [Function(2).pdf](./pages/uploads/presentations/week10/Function2.pdf)
 
 ### 補充資料
 |           | 主題 |
