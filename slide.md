@@ -72,6 +72,10 @@
 | 小遊戲豆知識  | [game-related.pdf](./pages/uploads/presentations/week09/game-related.pdf) |
 |struct, sort, and b-search|[struct, sort,<br>and binary-search.pdf](./pages/uploads/presentations/week09/0509.pdf)|
 
+### 第十週投影片 05/16
+|               |   竹 &amp; 北區   |
+|:-------------:|:-----------------:|
+| 遞迴  | [Recursive.pdf](./pages/uploads/presentations/week10/Recursive.pdf) |
 
 ### 補充資料
 |           | 主題 |
