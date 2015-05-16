@@ -15,6 +15,7 @@
 | 第六週 0418 | 小遊戲(I) | &nbsp; | [227-一半一半搜尋](http://2015.sprout.csie.org/oj/pro/227/) | &nbsp; |
 | 第七週 0425 | 小遊戲(I) | &nbsp; | &nbsp; | &nbsp; |
 | 第九週 0509 | 小遊戲(II)| [235-成績交換](http://2015.sprout.csie.org/oj/pro/235/) | [236-榜單排序](http://2015.sprout.csie.org/oj/pro/236/) | &nbsp; |  
+| 第十週 0516 | &nbsp; | [241-最大值搜尋](http://2015.sprout.csie.org/oj/pro/241/)、[242-文字轉轉轉New](http://2015.sprout.csie.org/oj/pro/242/) | [154-河內之塔](http://2015.sprout.csie.org/oj/pro/154/) | &nbsp; |  
 
 ## 點陣圖 (第一階段)
 ### 作業內容
