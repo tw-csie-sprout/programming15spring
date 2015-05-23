@@ -82,7 +82,7 @@
 ### 第十一週投影片 05/23
 |               |   北區   | 竹區 |
 |:-------------:|:-------------:|:----:|
-|struct, new/delete, liked list||[struct, new/delete, liked list.pdf](./pages/uploads/presentations/week11/0523.pdf)|
+|struct, new/delete, linked list||[struct, new/delete, linked list.pdf](./pages/uploads/presentations/week11/0523.pdf)|
 
 ### 補充資料
 |           | 主題 |
