@@ -71,6 +71,13 @@
 |:-------------:|:-----------------:|
 | 小遊戲豆知識  | [game-related.pdf](./pages/uploads/presentations/week09/game-related.pdf) |
 
+### 第十一週投影片 05/23
+
+|               |   竹 &amp; 北區   |
+|:-------------:|:-----------------:|
+| Struct(II)  | [struct2.pdf](./pages/uploads/presentations/week11/struct2.pdf) |
+| Linked-List  | [linklist.pdf](./pages/uploads/presentations/week11/linklist.pdf) |
+
 
 ### 補充資料
 |           | 主題 |
