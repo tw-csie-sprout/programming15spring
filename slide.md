@@ -79,6 +79,11 @@
 | 指標  | [Pointer.pdf](./pages/uploads/presentations/week10/Pointer.pdf) | [Pointer.pdf(北區)](https://drive.google.com/open?id=0B13ab_fQ7QbjT3YycGlhOWkzUE0&authuser=0) |
 | 函數(2)| [Function(2).pdf](./pages/uploads/presentations/week10/Function2.pdf) |
 
+### 第十一週投影片 05/23
+|               |   北區   | 竹區 |
+|:-------------:|:-------------:|:----:|
+|struct, new/delete, liked list||[struct, new/delete, liked list.pdf](./pages/uploads/presentations/week11/0523.pdf)|
+
 ### 補充資料
 |           | 主題 |
 |:---------:|:----:|
