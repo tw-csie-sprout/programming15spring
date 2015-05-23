@@ -70,14 +70,21 @@
 |               |   竹 &amp; 北區   |
 |:-------------:|:-----------------:|
 | 小遊戲豆知識  | [game-related.pdf](./pages/uploads/presentations/week09/game-related.pdf) |
+|struct, sort, and b-search|[struct, sort,<br>and binary-search.pdf](./pages/uploads/presentations/week09/0509.pdf)|
+
+### 第十週投影片 05/16
+|               |   竹 &amp; 北區   | 
+|:-------------:|:-----------------:|
+| 遞迴  | [Recursive.pdf](./pages/uploads/presentations/week10/Recursive.pdf) | |
+| 指標  | [Pointer.pdf](./pages/uploads/presentations/week10/Pointer.pdf) | [Pointer.pdf(北區)](https://drive.google.com/open?id=0B13ab_fQ7QbjT3YycGlhOWkzUE0&authuser=0) |
+| 函數(2)| [Function(2).pdf](./pages/uploads/presentations/week10/Function2.pdf) |
 
 ### 第十一週投影片 05/23
-
-|               |   竹 &amp; 北區   |
-|:-------------:|:-----------------:|
-| Struct(II)  | [struct2.pdf](./pages/uploads/presentations/week11/struct2.pdf) |
-| Linked-List  | [linklist.pdf](./pages/uploads/presentations/week11/linklist.pdf) |
-
+|               |   北區   | 竹區 |
+|:-------------:|:-------------:|:----:|
+|struct, new/delete, linked list||[struct, new/delete, linked list.pdf](./pages/uploads/presentations/week11/0523.pdf)|
+| Struct(II)  | [struct2.pdf](./pages/uploads/presentations/week11/struct2.pdf) | |
+| Linked-List  | [linklist.pdf](./pages/uploads/presentations/week11/linklist.pdf) | |
 
 ### 補充資料
 |           | 主題 |
