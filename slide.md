@@ -75,16 +75,17 @@
 ### 第十週投影片 05/16
 |               |   竹 &amp; 北區   | 
 |:-------------:|:-----------------:|
-| 遞迴  | [Recursive.pdf](./pages/uploads/presentations/week10/Recursive.pdf) | |
-| 指標  | [Pointer.pdf](./pages/uploads/presentations/week10/Pointer.pdf) | [Pointer.pdf(北區)](https://drive.google.com/open?id=0B13ab_fQ7QbjT3YycGlhOWkzUE0&authuser=0) |
+| 遞迴  | [Recursive.pdf](./pages/uploads/presentations/week10/Recursive.pdf) |
+| 指標  | [Pointer.pdf](./pages/uploads/presentations/week10/Pointer.pdf) [Pointer.pdf(北區)](https://drive.google.com/open?id=0B13ab_fQ7QbjT3YycGlhOWkzUE0&authuser=0) |
 | 函數(2)| [Function(2).pdf](./pages/uploads/presentations/week10/Function2.pdf) |
 
 ### 第十一週投影片 05/23
 |               |   北區   | 竹區 |
 |:-------------:|:-------------:|:----:|
 |struct, new/delete, linked list||[struct, new/delete, linked list.pdf](./pages/uploads/presentations/week11/0523.pdf)|
-| Struct(II)  | [struct2.pdf](./pages/uploads/presentations/week11/struct2.pdf) | |
-| Linked-List  | [linklist.pdf](./pages/uploads/presentations/week11/linklist.pdf) | |
+| Struct(II)  | [struct2.pdf](./pages/uploads/presentations/week11/struct2.pdf) | &nbsp; |
+| Linked-List  | [linklist.pdf](./pages/uploads/presentations/week11/linklist.pdf) | &nbsp; |
+| 智慧指標  | [smart.pdf](./pages/uploads/presentations/week11/smartptr.pdf) | &nbsp; |
 
 ### 補充資料
 |           | 主題 |
