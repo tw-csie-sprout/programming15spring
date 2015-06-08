@@ -166,4 +166,21 @@
         假如有寫不在上列的功能，請寫個Extra.txt大概說明。
 
 
-## 解釋器
+## 小遊戲AI
+
+- [待完成程式碼](https://drive.google.com/open?id=0BzV3fJOpuHilMHVaRFVCMXl2MHc&authuser=0)
+
+- 鬼的 AI
+
+    * 完成 `int GhostDecide(int i);` 函式
+
+    * `GhostDecide(i)` 應該要回傳 `ghost[i]` 下一個回合要走的方向, 範本提供在檔案最後面了
+
+    * 程式解說請參考 [ai-week01.pdf](./pages/uploads/presentations/week13/ai-week01.pdf)
+
+- 人的 AI: 待公佈
+
+- 繳交方式與評分: 鬼的 AI 跟人的 AI 完成後, 寄 `.cpp` 檔案到「**sprout+prog15** *AT* **csie.ntu.edu.tw**」
+
+    * 標題: 「[資訊之芽] [語法班] AI 姓名」
+    * 請把以上樣板複製貼上; 不含雙引號

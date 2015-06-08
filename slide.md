@@ -100,6 +100,7 @@
 |:-------------:|:-------------:|:----:|
 | Container     |[Container](./pages/uploads/presentations/week13/container.pdf)| [STL](./pages/uploads/presentations/week13/STL.pdf)|
 | Algorithm     |[Algorithm](./pages/uploads/presentations/week13/stl_algo.pdf) | &nbsp;|
+| AI 作業 (I)   |[ai-week01.pdf](./pages/uploads/presentations/week13/ai-week01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#小遊戲AI) |  [ai-week01.pdf](./pages/uploads/presentations/week13/ai-week01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#小遊戲AI) |
 
 ### 補充資料
 |           | 主題 |
