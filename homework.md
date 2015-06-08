@@ -18,7 +18,7 @@
 | 第十週 0516 | 小遊戲(II) | [241-最大值搜尋](http://2015.sprout.csie.org/oj/pro/241/)、[242-文字轉轉轉New](http://2015.sprout.csie.org/oj/pro/242/) | [154-河內之塔](http://2015.sprout.csie.org/oj/pro/154/) | &nbsp; |  
 | 第十一週 0523 | 小遊戲(II) | [250-Linked-List](http://sprout.csie.org/oj/pro/250/)| [170-doubly linked list](http://sprout.csie.org/oj/pro/170/) | &nbsp; |  
 | 第十二週 0530 | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| 第十三週 0606 | AI | [262-編輯器](http://sprout.csie.org/oj/pro/262/)| [261-計算排名](http://sprout.csie.org/oj/pro/261/) | &nbsp; |  
+| 第十三週 0606 | AI | [190-記事本](http://sprout.csie.org/oj/pro/190/)| [261-計算排名](http://sprout.csie.org/oj/pro/261/) | &nbsp; |  
 
 ## 點陣圖 (第一階段)
 ### 作業內容
