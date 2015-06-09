@@ -41,11 +41,11 @@
 | 0509 09 | 小遊戲(II)  | 簡單的介紹struct； 基礎排序、二分搜                       |
 | 0516 10 | 小遊戲(II)  | 指標&函數； 遞迴(II)                                      |
 | 0523 11 | 小遊戲(II)  | struct； 動態記憶體；shared_ptr；unique_ptr；linked-list  |
-| 0530 12 | bmp(II)     | 模組化； (使用complier)； .h                              |
-| 0606 13 |             | vector, list, string；sort, next_permutation, lower_bound |
-| 0613 14 | Interpreter | 遞迴(III)；展望與回顧                                     |
-| 0620    | Interpreter | *端午節*                                                  |
-| 0627 15 |             | 考試(暫定)                                                |
+| 0530 12 | (小遊戲(II))| 模組化； (使用complier)； .h                              |
+| 0606 13 |    AI(I)    | vector, list, string；sort, next_permutation, lower_bound |
+| 0613 14 |    AI(II)   | 遞迴(III)；展望與回顧                                     |
+| 0620    |    AI(II)   | *端午節*                                                  |
+| 0627 15 |             | 考試                                                      |
 
 ## 相關連結
 
