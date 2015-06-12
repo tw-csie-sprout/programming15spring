@@ -102,6 +102,12 @@
 | Algorithm     |[Algorithm](./pages/uploads/presentations/week13/stl_algo.pdf) | &nbsp;|
 | AI 作業 (I)   |[ai-week01.pdf](./pages/uploads/presentations/week13/ai-week01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#小遊戲AI) |  [ai-week01.pdf](./pages/uploads/presentations/week13/ai-week01.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#小遊戲AI) |
 
+###第十四週投影片 06/13
+
+|               |   北區   | 竹區 |
+|:-------------:|:-------------:|:----:|
+| 未來展望      | [future-promise.pdf](./pages/uploads/presentations/week14/future-promise.pdf) | &nbsp; |
+
 ### 補充資料
 |           | 主題 |
 |:---------:|:----:|
