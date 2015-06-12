@@ -107,6 +107,7 @@
 |               |   北區   | 竹區 |
 |:-------------:|:-------------:|:----:|
 | 未來展望      | [future-promise.pdf](./pages/uploads/presentations/week14/future-promise.pdf) | &nbsp; |
+| ID-DFS | | [ID_DFS.pdf](./pages/uploads/presentations/week14/ID_DFS_HsinChu.pdf) |
 
 ### 補充資料
 |           | 主題 |
