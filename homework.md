@@ -172,6 +172,7 @@
 ## 小遊戲AI
 
 - [待完成程式碼](https://drive.google.com/open?id=0BzV3fJOpuHilMHVaRFVCMXl2MHc&authuser=0)
+  [待完成程式碼](https://drive.google.com/open?id=0B6wbwXKOYgvhaWtVNFpnQUJjVWc&authuser=0)
 
 - 鬼的 AI
 
@@ -181,9 +182,17 @@
 
     * 程式解說請參考 [ai-week01.pdf](./pages/uploads/presentations/week13/ai-week01.pdf)
 
-- 人的 AI: 待公佈
+- 人的 AI
 
-- 繳交方式與評分: 鬼的 AI 跟人的 AI 完成後, 寄 `.cpp` 檔案到「**sprout+prog15** *AT* **csie.ntu.edu.tw**」
+    * 完成 `int PacmanDecide();` 函式
+
+    * `void PacmanInit()` 為 optional
+
+    * 程式解說請參考 [AI2.pdf](./pages/uploads/presentations/week14/AI2.pdf)
+
+- 繳交方式與評分: 鬼的 AI 跟人的 AI 完成後, 寄**一個** **壓縮檔** 到「**sprout+prog15** *AT* **csie.ntu.edu.tw**」
 
     * 標題: 「[資訊之芽] [語法班] AI 姓名」
     * 請把以上樣板複製貼上; 不含雙引號
+    * 人的AI最多可以寫3種，評分時取最高分者。
+    * 請附上readme說明人的AI

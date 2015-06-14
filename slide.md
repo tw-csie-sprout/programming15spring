@@ -108,6 +108,7 @@
 |:-------------:|:-------------:|:----:|
 | 未來展望      | [future-promise.pdf](./pages/uploads/presentations/week14/future-promise.pdf) | [Future promise](./pages/uploads/presentations/week14/hsinchu-future.pdf) |
 | ID-DFS | | [ID_DFS.pdf](./pages/uploads/presentations/week14/ID_DFS_HsinChu.pdf) |
+| AI 作業 (II) | [AI2.pdf](./pages/uploads/presentations/week14/AI2.pdf) [[作業]](http://tw-csie-sprout.github.io/programming15spring/#!homework.md#小遊戲AI) | |
 
 ### 補充資料
 |           | 主題 |
