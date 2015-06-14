@@ -171,7 +171,7 @@
 
 ## 小遊戲AI
 
-- [待完成程式碼](https://drive.google.com/open?id=0BzV3fJOpuHilMHVaRFVCMXl2MHc&authuser=0) [待完成程式碼2](https://drive.google.com/open?id=0B6wbwXKOYgvhaWtVNFpnQUJjVWc&authuser=0)
+- [待完成程式碼](https://drive.google.com/open?id=0BzV3fJOpuHilMHVaRFVCMXl2MHc&authuser=0) [待完成程式碼2](https://drive.google.com/open?id=0B6wbwXKOYgvhblNJODlIQ2JiVkE&authuser=0)
 
 - 鬼的 AI
 
