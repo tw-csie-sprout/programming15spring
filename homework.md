@@ -173,7 +173,7 @@
 
 - [待完成程式碼](https://drive.google.com/open?id=0BzV3fJOpuHilMHVaRFVCMXl2MHc&authuser=0) [待完成程式碼2](https://drive.google.com/open?id=0B6wbwXKOYgvhb0FmTldyZmhYOFE&authuser=0)
 
-- 繳交期限: 2015/06/30 (二) 08:00am
+- 繳交期限: 2015/07/03 (五) 23:59
 
 - 鬼的 AI
 
